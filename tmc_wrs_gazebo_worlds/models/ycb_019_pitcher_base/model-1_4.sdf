@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_019_pitcher_base'>
+    <link name='body'>
+      <inertial>
+        <mass>3.44118000858</mass>
+        <pose>-0.0134134466187 0.0334773624643 0.122636247613 0 0 0</pose>
+        <inertia>
+          <ixx>0.0180086300627</ixx>
+          <ixy>-0.000107879121976</ixy>
+          <ixz>-8.21295113408e-05</ixz>
+          <iyy>0.0180280463889</iyy>
+          <iyz>-0.000146469008767</iyz>
+          <izz>0.00635097856687</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_019_pitcher_base_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_019_pitcher_base/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_019_pitcher_base_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_019_pitcher_base/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

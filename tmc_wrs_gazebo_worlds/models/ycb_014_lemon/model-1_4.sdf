@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_014_lemon'>
+    <link name='body'>
+      <inertial>
+        <mass>0.130726600161</mass>
+        <pose>-0.0107704930173 0.0210142182139 0.0262085335818 0 0 0</pose>
+        <inertia>
+          <ixx>4.10965652219e-05</ixx>
+          <ixy>-4.12470285494e-06</ixy>
+          <ixz>1.47302596972e-07</ixz>
+          <iyy>4.24877780823e-05</iyy>
+          <iyz>-1.54650295243e-08</iyz>
+          <izz>4.5885389501e-05</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_014_lemon_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_014_lemon/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_014_lemon_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_014_lemon/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

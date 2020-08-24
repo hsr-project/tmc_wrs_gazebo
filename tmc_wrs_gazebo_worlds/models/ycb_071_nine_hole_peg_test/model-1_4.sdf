@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_071_nine_hole_peg_test'>
+    <link name='body'>
+      <inertial>
+        <mass>0.845891094324</mass>
+        <pose>-0.000188539241344 0.0243737213452 0.0199528660623 0 0 0</pose>
+        <inertia>
+          <ixx>0.00128700948904</ixx>
+          <ixy>-2.61678415129e-05</ixy>
+          <ixz>7.78736420968e-07</ixz>
+          <iyy>0.00117389015279</iyy>
+          <iyz>-2.50426233629e-06</iyz>
+          <izz>0.00223510127618</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_071_nine_hole_peg_test_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_071_nine_hole_peg_test/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_071_nine_hole_peg_test_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_071_nine_hole_peg_test/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

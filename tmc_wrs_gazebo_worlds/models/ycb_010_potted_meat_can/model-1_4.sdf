@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_010_potted_meat_can'>
+    <link name='body'>
+      <inertial>
+        <mass>0.478077558604</mass>
+        <pose>-0.0328403521507 -0.0263527143995 0.0378308500124 0 0 0</pose>
+        <inertia>
+          <ixx>0.000337230546992</ixx>
+          <ixy>-1.33095263989e-05</ixy>
+          <ixz>-7.42393573123e-07</ixz>
+          <iyy>0.000578044555121</iyy>
+          <iyz>1.50001214311e-06</iyz>
+          <izz>0.000435803926086</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_010_potted_meat_can_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_010_potted_meat_can/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_010_potted_meat_can_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_010_potted_meat_can/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_040_large_marker'>
+    <link name='body'>
+      <inertial>
+        <mass>0.0369899259844</mass>
+        <pose>-0.0357251247286 -0.00788077074591 0.00901829689479 0 0 0</pose>
+        <inertia>
+          <ixx>4.18091957192e-05</ixx>
+          <ixy>8.40108080782e-07</ixy>
+          <ixz>-2.30290744306e-09</ixz>
+          <iyy>1.45274692397e-06</iyy>
+          <iyz>-2.15976142663e-08</iyz>
+          <izz>4.18282691343e-05</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_040_large_marker_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_040_large_marker/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_040_large_marker_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_040_large_marker/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

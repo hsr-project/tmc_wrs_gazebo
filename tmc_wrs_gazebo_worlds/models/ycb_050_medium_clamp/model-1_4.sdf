@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_050_medium_clamp'>
+    <link name='body'>
+      <inertial>
+        <mass>0.0302247244367</mass>
+        <pose>0.0108274831213 -0.0149036000323 0.0126179349261 0 0 0</pose>
+        <inertia>
+          <ixx>7.90857634592e-06</ixx>
+          <ixy>-5.3141198372e-07</ixy>
+          <ixz>-4.16867340101e-08</ixz>
+          <iyy>1.16322814996e-05</iyy>
+          <iyz>7.53892157176e-08</iyz>
+          <izz>1.78026712352e-05</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_050_medium_clamp_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_050_medium_clamp/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_050_medium_clamp_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_050_medium_clamp/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

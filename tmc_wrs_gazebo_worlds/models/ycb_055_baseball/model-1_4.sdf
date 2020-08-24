@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_055_baseball'>
+    <link name='body'>
+      <inertial>
+        <mass>0.273708574702</mass>
+        <pose>-0.00994798497707 -0.0481162357312 0.0359266475531 0 0 0</pose>
+        <inertia>
+          <ixx>0.000145340722583</ixx>
+          <ixy>-8.12589324536e-08</ixy>
+          <ixz>-2.3900341385e-08</ixz>
+          <iyy>0.000145707935239</iyy>
+          <iyz>-6.14340213258e-07</iyz>
+          <izz>0.000145310155904</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_055_baseball_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_055_baseball/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_055_baseball_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_055_baseball/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_032_knife'>
+    <link name='body'>
+      <inertial>
+        <mass>0.0294778924891</mass>
+        <pose>0.0084450761539 -0.0290926313873 0.0050003858301 0 0 0</pose>
+        <inertia>
+          <ixx>1.06777166115e-06</ixx>
+          <ixy>5.39011858317e-07</ixy>
+          <ixz>-5.53861438593e-06</ixz>
+          <iyy>0.000110585253213</iyy>
+          <iyz>7.6537209727e-08</iyz>
+          <izz>0.000110519759034</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_032_knife_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_032_knife/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_032_knife_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_032_knife/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

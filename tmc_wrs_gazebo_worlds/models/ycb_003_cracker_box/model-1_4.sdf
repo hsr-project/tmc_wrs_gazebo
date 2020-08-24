@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_003_cracker_box'>
+    <link name='body'>
+      <inertial>
+        <mass>2.93393821406</mass>
+        <pose>-0.0148535577968 -0.0142050544666 0.10220486839 0 0 0</pose>
+        <inertia>
+          <ixx>0.017100285088</ixx>
+          <ixy>-3.56548142137e-06</ixy>
+          <ixz>0.000109124466445</ixz>
+          <iyy>0.0120082426729</iyy>
+          <iyz>3.89306936817e-05</iyz>
+          <izz>0.00713499707215</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_003_cracker_box_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_003_cracker_box/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_003_cracker_box_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_003_cracker_box/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

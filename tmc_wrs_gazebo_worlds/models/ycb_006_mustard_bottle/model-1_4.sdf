@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_006_mustard_bottle'>
+    <link name='body'>
+      <inertial>
+        <mass>0.826252863444</mass>
+        <pose>-0.0150543314049 -0.0231093761986 0.0750422712079 0 0 0</pose>
+        <inertia>
+          <ixx>0.00200817300456</ixx>
+          <ixy>0.000103930551165</ixy>
+          <ixz>-6.81581848815e-06</ixz>
+          <iyy>0.00221010451749</iyy>
+          <iyz>-9.65865507488e-06</iyz>
+          <izz>0.000579623909805</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_006_mustard_bottle_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_006_mustard_bottle/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_006_mustard_bottle_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_006_mustard_bottle/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

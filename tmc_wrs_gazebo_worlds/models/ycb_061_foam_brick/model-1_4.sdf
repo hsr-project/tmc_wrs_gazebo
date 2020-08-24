@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_061_foam_brick'>
+    <link name='body'>
+      <inertial>
+        <mass>0.249650860111</mass>
+        <pose>-0.0186253157588 0.0169548778838 0.0246441504986 0 0 0</pose>
+        <inertia>
+          <ixx>0.000169053075274</ixx>
+          <ixy>-1.00550921796e-06</ixy>
+          <ixz>-1.79608564698e-07</ixz>
+          <iyy>0.000104913263133</iyy>
+          <iyz>1.19724266126e-06</iyz>
+          <izz>0.000173362369471</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_061_foam_brick_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_061_foam_brick/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_061_foam_brick_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_061_foam_brick/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

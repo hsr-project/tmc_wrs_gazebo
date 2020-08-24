@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_051_large_clamp'>
+    <link name='body'>
+      <inertial>
+        <mass>0.120931911468</mass>
+        <pose>-0.00238530620842 -0.02157180461 0.0174369003252 0 0 0</pose>
+        <inertia>
+          <ixx>0.000190430712636</ixx>
+          <ixy>1.49064712596e-05</ixy>
+          <ixz>9.46514284283e-06</ixz>
+          <iyy>0.000107001854048</iyy>
+          <iyz>-9.47236698356e-06</iyz>
+          <izz>0.000279061897317</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_051_large_clamp_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_051_large_clamp/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_051_large_clamp_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_051_large_clamp/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

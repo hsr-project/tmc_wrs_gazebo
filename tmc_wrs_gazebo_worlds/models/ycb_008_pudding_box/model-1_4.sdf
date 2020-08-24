@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_008_pudding_box'>
+    <link name='body'>
+      <inertial>
+        <mass>0.461392313357</mass>
+        <pose>0.00151764956966 0.018795882065 0.0186577019787 0 0 0</pose>
+        <inertia>
+          <ixx>0.000374350992977</ixx>
+          <ixy>-6.77018723742e-05</ixy>
+          <ixz>-8.97042921235e-06</ixz>
+          <iyy>0.000466731380307</iyy>
+          <iyz>-2.84182045532e-06</iyz>
+          <izz>0.000744234813757</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_008_pudding_box_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_008_pudding_box/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_008_pudding_box_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_008_pudding_box/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

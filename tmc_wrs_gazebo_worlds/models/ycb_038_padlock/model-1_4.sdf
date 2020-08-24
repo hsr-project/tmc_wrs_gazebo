@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_038_padlock'>
+    <link name='body'>
+      <inertial>
+        <mass>0.0616977047013</mass>
+        <pose>-0.0170760669983 0.00951738898351 0.0136263415536 0 0 0</pose>
+        <inertia>
+          <ixx>1.16186748421e-05</ixx>
+          <ixy>7.88309046235e-07</ixy>
+          <ixz>-9.8891310822e-07</ixz>
+          <iyy>1.52651677398e-05</iyy>
+          <iyz>7.55085546426e-08</iyz>
+          <izz>2.0799266411e-05</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_038_padlock_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_038_padlock/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_038_padlock_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_038_padlock/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

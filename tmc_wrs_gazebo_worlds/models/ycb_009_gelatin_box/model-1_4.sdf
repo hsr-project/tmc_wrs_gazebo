@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_009_gelatin_box'>
+    <link name='body'>
+      <inertial>
+        <mass>0.233625355387</mass>
+        <pose>-0.0226755178965 -0.00786020325383 0.0138779660098 0 0 0</pose>
+        <inertia>
+          <ixx>0.000157998395892</ixx>
+          <ixy>1.02782218499e-05</ixy>
+          <ixz>3.15702757882e-07</ixz>
+          <iyy>0.000116085721506</iyy>
+          <iyz>-6.06374281284e-07</iyz>
+          <izz>0.000244185436349</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_009_gelatin_box_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_009_gelatin_box/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_009_gelatin_box_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_009_gelatin_box/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

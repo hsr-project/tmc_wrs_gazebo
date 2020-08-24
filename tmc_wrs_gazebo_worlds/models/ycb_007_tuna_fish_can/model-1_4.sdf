@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_007_tuna_fish_can'>
+    <link name='body'>
+      <inertial>
+        <mass>0.206035426425</mass>
+        <pose>-0.0259963252348 -0.0221403594463 0.0129895081519 0 0 0</pose>
+        <inertia>
+          <ixx>0.000107355810652</ixx>
+          <ixy>2.90406919687e-08</ixy>
+          <ixz>1.66816027239e-08</ixz>
+          <iyy>0.000107469808001</iyy>
+          <iyz>3.59485567827e-09</iyz>
+          <izz>0.000188207527284</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_007_tuna_fish_can_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_007_tuna_fish_can/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_007_tuna_fish_can_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_007_tuna_fish_can/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>

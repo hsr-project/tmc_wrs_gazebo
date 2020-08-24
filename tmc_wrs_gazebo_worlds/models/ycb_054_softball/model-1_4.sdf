@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_054_softball'>
+    <link name='body'>
+      <inertial>
+        <mass>0.624586747852</mass>
+        <pose>-0.0196497940646 0.0108825358479 0.0468171339733 0 0 0</pose>
+        <inertia>
+          <ixx>0.000575723779997</ixx>
+          <ixy>4.78117923367e-07</ixy>
+          <ixz>-1.85342396385e-07</ixz>
+          <iyy>0.000572369293174</iyy>
+          <iyz>4.37283388314e-07</iyz>
+          <izz>0.00057780887316</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_054_softball_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_054_softball/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_054_softball_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_054_softball/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+    </link>
+  </model>
+</sdf>
