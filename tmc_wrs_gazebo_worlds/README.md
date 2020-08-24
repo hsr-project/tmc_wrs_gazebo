@@ -15,7 +15,3 @@ common benchmarks for manipulation research," International Conference on Advanc
 http://ycbbenchmarks.org/
 
 Distributed under Creative Commons Attribution 4.0 International (CC BY 4.0) license.
-
-## LICENSE
-
-This software is released under the BSD 3-Clause Clear License, see LICENSE.txt.

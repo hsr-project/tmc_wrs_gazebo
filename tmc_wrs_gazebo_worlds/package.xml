@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>tmc_wrs_gazebo_worlds</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>World and model files for WRS Gazebo simulator</description>
 
   <maintainer email="xr-hsr-support@mail.toyota.co.jp">HSR Support</maintainer>
