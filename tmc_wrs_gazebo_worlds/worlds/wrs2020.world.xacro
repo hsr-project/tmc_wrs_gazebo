@@ -91,17 +91,32 @@ POSSIBILITY OF SUCH DAMAGE.
     </include>
     <include>
       <name>trofast_1</name>
-      <uri>model://trofast</uri>
+      <xacro:if value="$(arg trofast_knob)">
+        <uri>model://trofast_knob</uri>
+      </xacro:if>
+      <xacro:unless value="$(arg trofast_knob)">
+        <uri>model://trofast</uri>
+      </xacro:unless>
       <pose frame=''>-2.7 0.67 0.1 0 -0 0</pose>
     </include>
     <include>
       <name>trofast_2</name>
-      <uri>model://trofast</uri>
+      <xacro:if value="$(arg trofast_knob)">
+        <uri>model://trofast_knob</uri>
+      </xacro:if>
+      <xacro:unless value="$(arg trofast_knob)">
+        <uri>model://trofast</uri>
+      </xacro:unless>
       <pose frame=''>-2.7 1 0.1 0 -0 0</pose>
     </include>
     <include>
       <name>trofast_3</name>
-      <uri>model://trofast</uri>
+      <xacro:if value="$(arg trofast_knob)">
+        <uri>model://trofast_knob</uri>
+      </xacro:if>
+      <xacro:unless value="$(arg trofast_knob)">
+        <uri>model://trofast</uri>
+      </xacro:unless>
       <pose frame=''>-2.7 1 0.36 0 -0 0</pose>
     </include>
     <include>
