@@ -110,7 +110,7 @@ food = {
 }
 
 kitchen_items = {
-    "prefix": "kitchen_items",
+    "prefix": "kitchenitem",
     "items": [
         "ycb_019_pitcher_base",      # Pitcher base
         "ycb_021_bleach_cleanser",   # Srub cleanser bottle
@@ -127,7 +127,7 @@ kitchen_items = {
 }
 
 tools = {
-    "prefix": "tools",
+    "prefix": "tool",
     "items": [
         "ycb_038_padlock",          # Keys(from the Padlock)
         "ycb_040_large_marker",     # Large marker
@@ -139,7 +139,7 @@ tools = {
 }
 
 shape_items = {
-    "prefix": "shape_items",
+    "prefix": "shapeitem",
     "items": [
         "ycb_053_mini_soccer_ball",  # Mini soccer ball
         "ycb_054_softball",          # Soft ball
@@ -167,7 +167,7 @@ shape_items = {
 }
 
 task_items = {
-    "prefix": "task_items",
+    "prefix": "taskitem",
     "items": [
         "ycb_070-a_colored_wood_blocks", # Colored wood blocks
         "ycb_070-b_colored_wood_blocks", # Colored wood blocks
@@ -190,7 +190,7 @@ task_items = {
 }
 
 small_items = {
-    "prefix": "small_items",
+    "prefix": "smallitem",
     "items": [
         "ycb_061_foam_brick",
         "ycb_062_dice",
@@ -287,7 +287,7 @@ if __name__ == '__main__':
         s['items'] = random.sample(s['items'], len(s['items']))
         for i in range(0, args.percategory):
             place = task1_places_choice[random.randrange(len(task1_places_choice))]
-            place_items[place].append(s['items'][i % len(s['items'])])
+            place_items[place].append((s['prefix'], s['items'][i % len(s['items'])]))
     cnt = 1
     for i in range(len(task1_places)):
         place = task1_places[i]
@@ -297,7 +297,7 @@ if __name__ == '__main__':
             X = generate_scatter(place[0][0], place[1][0], place[0][1], place[1][1], n, 0.2)
             for j in range(n):
                 yaw = math.pi * (random.random() - 0.5)
-                drop_object('task1_{0}'.format(cnt), items[j], X[j][0], X[j][1], place[0][2], yaw)
+                drop_object('task1_{0}_{1}_{2}'.format(items[j][0], items[j][1], cnt), items[j][1], X[j][0], X[j][1], place[0][2], yaw)
                 cnt += 1
 
     # drop few small items on the route to room #2
