@@ -7,11 +7,25 @@ But, There is **no guarantee** that this simulator totally complies with the rul
 
 ## About the object models
 
-The object models begins with the name "ycb_" has been converted from Yale-CMU-Berkeley(YCB) Object and Model set.
+### Begins with the name "ycb_"
+
+It has been converted from Yale-CMU-Berkeley(YCB) Object and Model set.
 
 B. Calli, A. Singh, A. Walsman, S. Srinivasa, P. Abbeel and A. M. Dollar, "The YCB object and Model set: Towards
 common benchmarks for manipulation research," International Conference on Advanced Robotics (ICAR), 2015, pp. 510-517.
 
 http://ycbbenchmarks.org/
 
-Distributed under Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+<br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+
+### "person_standing" model
+
+The original source is in here.
+
+https://github.com/osrf/gazebo_models
+
+<br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported license</a>.
+
+### "trofast" and begins with the name "wrc_"
+
+<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
