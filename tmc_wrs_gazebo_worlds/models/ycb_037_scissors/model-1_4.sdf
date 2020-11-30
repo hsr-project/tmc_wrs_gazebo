@@ -3,15 +3,15 @@
   <model name='ycb_037_scissors'>
     <link name='body'>
       <inertial>
-        <mass>0.0631818463988</mass>
+        <mass>0.082</mass>
         <pose>0.014591521705 0.0031621363902 0.00740067431642 0 0 0</pose>
         <inertia>
-          <ixx>8.90761882165e-05</ixx>
-          <ixy>-2.12263460597e-05</ixy>
-          <ixz>-3.65855244057e-07</ixz>
-          <iyy>2.96660226151e-05</iyy>
-          <iyz>-3.98937442076e-07</iyz>
-          <izz>0.00011736853493</izz>
+          <ixx>0.000115606742285</ixx>
+          <ixy>-2.75484253168e-05</ixy>
+          <ixz>-4.74821989584e-07</ixz>
+          <iyy>3.85017848178e-05</iyy>
+          <iyz>-5.17757427406e-07</iyz>
+          <izz>0.000152325713996</izz>
         </inertia>
       </inertial>
       <visual name='ycb_037_scissors_visual'>

@@ -3,15 +3,15 @@
   <model name='ycb_014_lemon'>
     <link name='body'>
       <inertial>
-        <mass>0.130726600161</mass>
+        <mass>0.029</mass>
         <pose>-0.0107704930173 0.0210142182139 0.0262085335818 0 0 0</pose>
         <inertia>
-          <ixx>4.10965652219e-05</ixx>
-          <ixy>-4.12470285494e-06</ixy>
-          <ixz>1.47302596972e-07</ixz>
-          <iyy>4.24877780823e-05</iyy>
-          <iyz>-1.54650295243e-08</iyz>
-          <izz>4.5885389501e-05</izz>
+          <ixx>9.11673974512e-06</ixx>
+          <ixy>-9.15011808197e-07</ixy>
+          <ixz>3.26771698102e-08</ixz>
+          <iyy>9.42536226648e-06</iyy>
+          <iyz>-3.43071613315e-09</iyz>
+          <izz>1.01790782739e-05</izz>
         </inertia>
       </inertial>
       <visual name='ycb_014_lemon_visual'>

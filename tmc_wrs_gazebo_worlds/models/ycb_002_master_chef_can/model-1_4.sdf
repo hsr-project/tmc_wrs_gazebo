@@ -3,15 +3,15 @@
   <model name='ycb_002_master_chef_can'>
     <link name='body'>
       <inertial>
-        <mass>1.42361968467</mass>
+        <mass>0.414</mass>
         <pose>-0.0170707295146 -0.00976285584694 0.0705842198739 0 0 0</pose>
         <inertia>
-          <ixx>0.00305897885852</ixx>
-          <ixy>1.33544357285e-06</ixy>
-          <ixz>-1.89707656239e-06</ixz>
-          <iyy>0.00305274649093</iyy>
-          <iyz>6.51326966731e-07</iyz>
-          <izz>0.0017830168783</izz>
+          <ixx>0.000889575538371</ixx>
+          <ixy>3.88357680854e-07</ixy>
+          <ixz>-5.51685049938e-07</ixz>
+          <iyy>0.000887763115987</iyy>
+          <iyz>1.89411095625e-07</iyz>
+          <izz>0.000518515580785</izz>
         </inertia>
       </inertial>
       <visual name='ycb_002_master_chef_can_visual'>

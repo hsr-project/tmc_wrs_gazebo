@@ -3,15 +3,15 @@
   <model name='ycb_025_mug'>
     <link name='body'>
       <inertial>
-        <mass>0.186463280618</mass>
+        <mass>0.118</mass>
         <pose>-0.0188586065519 0.0165729622908 0.0268988522938 0 0 0</pose>
         <inertia>
-          <ixx>0.000160690739092</ixx>
-          <ixy>1.01583011141e-06</ixy>
-          <ixz>-4.58732866651e-06</ixz>
-          <iyy>0.000182638172107</iyy>
-          <iyz>-3.96632310432e-06</iyz>
-          <izz>0.000232750650176</izz>
+          <ixx>0.000101690301436</ixx>
+          <ixy>6.42850178059e-07</ixy>
+          <ixz>-2.90301007713e-06</ixz>
+          <iyy>0.000115579347511</iyy>
+          <iyz>-2.51001765473e-06</iyz>
+          <izz>0.00014729214583</izz>
         </inertia>
       </inertial>
       <visual name='ycb_025_mug_visual'>

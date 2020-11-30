@@ -3,15 +3,15 @@
   <model name='ycb_028_skillet_lid'>
     <link name='body'>
       <inertial>
-        <mass>0.132370490343</mass>
+        <mass>0.652</mass>
         <pose>0.00461489752315 0.0283196515633 0.0200988969913 0 0 0</pose>
         <inertia>
-          <ixx>0.000891300641291</ixx>
-          <ixy>4.89257826098e-05</ixy>
-          <ixz>-4.803341567e-07</ixz>
-          <iyy>0.000857214392308</iyy>
-          <iyz>6.50277325047e-06</iyz>
-          <izz>0.00159488536708</izz>
+          <ixx>0.00439016291787</ixx>
+          <ixy>0.000240987324131</ixy>
+          <ixz>-2.36591909086e-06</ixz>
+          <iyy>0.00422226874237</iyy>
+          <iyz>3.2029859135e-05</iyz>
+          <izz>0.00785571811851</izz>
         </inertia>
       </inertial>
       <visual name='ycb_028_skillet_lid_visual'>

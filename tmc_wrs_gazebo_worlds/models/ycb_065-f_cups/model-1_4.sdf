@@ -3,15 +3,15 @@
   <model name='ycb_065-f_cups'>
     <link name='body'>
       <inertial>
-        <mass>0.0667983078857</mass>
+        <mass>0.021</mass>
         <pose>-0.0375227821052 0.02473145643 0.0314334489481 0 0 0</pose>
         <inertia>
-          <ixx>5.99806871213e-05</ixx>
-          <ixy>1.54716543931e-06</ixy>
-          <ixz>-2.67842155332e-06</ixz>
-          <iyy>6.56396371371e-05</iyy>
-          <iyz>-1.12540860533e-06</iyz>
-          <izz>6.68161604133e-05</izz>
+          <ixx>1.88566816947e-05</ixx>
+          <ixy>4.86396665633e-07</ixy>
+          <ixz>-8.42040081553e-07</ixz>
+          <iyy>2.06357379926e-05</iyy>
+          <iyz>-3.53805080698e-07</iyz>
+          <izz>2.10056124637e-05</izz>
         </inertia>
       </inertial>
       <visual name='ycb_065-f_cups_visual'>

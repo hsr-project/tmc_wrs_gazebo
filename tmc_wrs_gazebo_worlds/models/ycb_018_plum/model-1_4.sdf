@@ -3,15 +3,15 @@
   <model name='ycb_018_plum'>
     <link name='body'>
       <inertial>
-        <mass>0.116339811742</mass>
+        <mass>0.025</mass>
         <pose>-0.00774261128048 0.0194922316554 0.0237203375324 0 0 0</pose>
         <inertia>
-          <ixx>3.39254231033e-05</ixx>
-          <ixy>-3.88643335627e-07</ixy>
-          <ixz>-2.83597415142e-07</ixz>
-          <iyy>3.58870394924e-05</iyy>
-          <iyz>6.08010059787e-07</iyz>
-          <izz>3.61006796912e-05</izz>
+          <ixx>7.29015772747e-06</ixx>
+          <ixy>-8.35146906738e-08</ixy>
+          <ixz>-6.09416095178e-08</ixz>
+          <iyy>7.71168505326e-06</iyy>
+          <iyz>1.30653911736e-07</iyz>
+          <izz>7.75759371421e-06</izz>
         </inertia>
       </inertial>
       <visual name='ycb_018_plum_visual'>

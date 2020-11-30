@@ -3,15 +3,15 @@
   <model name='ycb_013_apple'>
     <link name='body'>
       <inertial>
-        <mass>0.332903777888</mass>
+        <mass>0.068</mass>
         <pose>0.00131058016449 -0.00386124266925 0.0363367326688 0 0 0</pose>
         <inertia>
-          <ixx>0.000203481403442</ixx>
-          <ixy>3.33129952873e-07</ixy>
-          <ixz>5.66959640608e-07</ixz>
-          <iyy>0.000206797593498</iyy>
-          <iyz>-7.01393879775e-07</iyz>
-          <izz>0.000205890045386</izz>
+          <ixx>4.1563768131e-05</ixx>
+          <ixy>6.80461992324e-08</ixy>
+          <ixz>1.15809005851e-07</ixz>
+          <iyy>4.22411438136e-05</iyy>
+          <iyz>-1.43268977382e-07</iyz>
+          <izz>4.20557651075e-05</izz>
         </inertia>
       </inertial>
       <visual name='ycb_013_apple_visual'>

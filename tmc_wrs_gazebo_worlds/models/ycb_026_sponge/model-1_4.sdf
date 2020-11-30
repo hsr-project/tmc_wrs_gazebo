@@ -3,15 +3,15 @@
   <model name='ycb_026_sponge'>
     <link name='body'>
       <inertial>
-        <mass>0.156252477825</mass>
+        <mass>0.0062</mass>
         <pose>-0.0158423566007 0.0115205622132 0.00937252509664 0 0 0</pose>
         <inertia>
-          <ixx>0.000137985614936</ixx>
-          <ixy>-7.3119973426e-07</ixy>
-          <ixz>-9.59709292267e-07</ixz>
-          <iyy>6.80622985405e-05</iyy>
-          <iyz>-1.33560826957e-06</iyz>
-          <izz>0.000199646140325</izz>
+          <ixx>5.47518237479e-06</ixx>
+          <ixy>-2.90135453564e-08</ixy>
+          <ixz>-3.80806608311e-08</ixz>
+          <iyy>2.70066917866e-06</iyy>
+          <iyz>-5.29960957204e-08</iyz>
+          <izz>7.92183322306e-06</izz>
         </inertia>
       </inertial>
       <visual name='ycb_026_sponge_visual'>

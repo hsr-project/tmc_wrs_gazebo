@@ -3,15 +3,15 @@
   <model name='ycb_042_adjustable_wrench'>
     <link name='body'>
       <inertial>
-        <mass>0.0267593359491</mass>
+        <mass>0.252</mass>
         <pose>0.0145014626744 -0.04966484184 0.00425078099655 0 0 0</pose>
         <inertia>
-          <ixx>4.55098826863e-05</ixx>
-          <ixy>2.21144278972e-05</ixy>
-          <ixz>-3.8712345047e-07</ixz>
-          <iyy>1.80746488729e-05</iyy>
-          <iyz>1.04826499401e-06</iyz>
-          <izz>6.32630736728e-05</izz>
+          <ixx>0.000428579037192</ixx>
+          <ixy>0.000208257627943</ixy>
+          <ixz>-3.64564762384e-06</ixz>
+          <iyy>0.000170213921775</iyy>
+          <iyz>9.87179872447e-06</iyz>
+          <izz>0.000595765701955</izz>
         </inertia>
       </inertial>
       <visual name='ycb_042_adjustable_wrench_visual'>

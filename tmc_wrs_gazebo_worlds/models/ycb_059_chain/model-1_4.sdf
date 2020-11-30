@@ -3,15 +3,15 @@
   <model name='ycb_059_chain'>
     <link name='body'>
       <inertial>
-        <mass>0.151056406184</mass>
+        <mass>0.1</mass>
         <pose>-0.0342749379267 0.0181753261039 0.00901024773831 0 0 0</pose>
         <inertia>
-          <ixx>0.000960868643825</ixx>
-          <ixy>-6.64242392e-05</ixy>
-          <ixz>-8.04004412541e-06</ixz>
-          <iyy>0.000843435838234</iyy>
-          <iyz>-1.45543459778e-06</iyz>
-          <izz>0.00179648917549</izz>
+          <ixx>0.000636099234782</ixx>
+          <ixy>-4.39731361801e-05</ixy>
+          <ixz>-5.32254429225e-06</ixz>
+          <iyy>0.000558358205085</iyy>
+          <iyz>-9.63504054245e-07</iyz>
+          <izz>0.00118928367282</izz>
         </inertia>
       </inertial>
       <visual name='ycb_059_chain_visual'>
