@@ -323,5 +323,7 @@ if __name__ == '__main__':
         X = generate_scatter(place[0][0], place[1][0], place[0][1], place[1][1], args.perrow, 0.2)
         for j in range(args.perrow):
             yaw = 0 # math.pi * (random.random() - 0.5)
-            drop_object('task2_{0}'.format(cnt), s['items'][(cnt - 1) % len(s['items'])], X[j][0], X[j][1], place[0][2], yaw)
+            name = s['items'][(cnt - 1) % len(s['items'])]
+            drop_object('task2_{0}_{1}'.format(cnt, name), name, X[j][0], X[j][1], place[0][2], yaw)
             cnt += 1
+    rospy.loginfo('Spawn finished')
