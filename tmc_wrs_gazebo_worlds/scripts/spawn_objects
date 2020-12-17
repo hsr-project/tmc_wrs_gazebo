@@ -277,6 +277,7 @@ if __name__ == '__main__':
 
     if args.seed:
         random.seed(args.seed)
+        np.random.seed(args.seed)
 
     rospy.init_node('spawn_objects')
 
