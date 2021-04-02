@@ -147,7 +147,7 @@ shape_items = {
         "ycb_056_tennis_ball",       # Tennis ball
         "ycb_057_racquetball",       # Racquetball
         "ycb_058_golf_ball",         # Golf ball
-        "ycb_059_chain",             # Chain
+        # "ycb_059_chain",             # Chain
         "ycb_061_foam_brick",        # Foam brick
         "ycb_062_dice",              # Dice
         "ycb_063-a_marbles",         # Marbles
