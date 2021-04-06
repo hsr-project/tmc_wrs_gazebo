@@ -30,6 +30,14 @@
           </mesh>
         </geometry>
         <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <kp>1e15</kp>
+              <kd>1e13</kd>
+            </ode>
+          </contact>
+        </surface>
       </collision>
     </link>
   </model>

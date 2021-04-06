@@ -80,6 +80,14 @@
           </mesh>
         </geometry>
         <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <kp>1e15</kp>
+              <kd>1e13</kd>
+            </ode>
+          </contact>
+        </surface>
       </collision>
       <collision name='collision_knob_base'>
         <pose>0.205 0 0.18 0 1.56 0</pose>
