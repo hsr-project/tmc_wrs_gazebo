@@ -17,8 +17,8 @@
   <run_depend>hsrb_rosnav_config</run_depend>
   <run_depend>hsrb_moveit_config</run_depend>
 
-  <run_depend>hsrb_gazebo_launch</run_depend>
-  <run_depend>hsrb_gazebo_task_evaluators</run_depend>
+  <run_depend>hsrb_wrs_gazebo_launch</run_depend>
+  <run_depend>tmc_gazebo_task_evaluators</run_depend>
   <run_depend>tmc_wrs_gazebo_worlds</run_depend>
   <run_depend>rosbag</run_depend>
   <run_depend>rviz</run_depend>
