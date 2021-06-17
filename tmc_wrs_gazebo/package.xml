@@ -12,8 +12,8 @@
   <author>Nobuyuki Matsuno</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>tmc_wrs_launch</run_depend>
-  <run_depend>tmc_wrs_worlds</run_depend>
+  <run_depend>tmc_wrs_gazebo_launch</run_depend>
+  <run_depend>tmc_wrs_gazebo_worlds</run_depend>
   <export>
     <metapackage/>
   </export>
